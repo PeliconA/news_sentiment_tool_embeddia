@@ -1,0 +1,17 @@
+Dependencies:
+
+- torch
+- pandas
+- numpy
+- keras
+- tqdm
+- transformers
+
+Usage:
+Install the dependencies in a virtual environment.
+Run the script 'predict.py' with the following arguments:
+--data_path: path to the data file. The file has to be in a .tsv format with instances to classify in the column 'data'.
+--model_dir: path to the directory where the model is
+
+Output:
+Labels for input instances. 0 == negative, 1 == neutral, 2 == positive.
