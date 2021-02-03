@@ -15,7 +15,7 @@ import pandas as pd
 
 def run_example():
     # We then load our data from the tsv file into a list, where each list element is an instance to be classified
-    data = pd.read_csv("./data/example_news.tsv")
+    data = pd.read_csv("./data/example_news.tsv", sep="\t")
     instances_to_be_classified = data['data']
 
     # We then call the predict function sending our data as parameter. The function returns predictions for each
