@@ -1,6 +1,8 @@
 # News Sentiment Analysis Tool
 
-The tool classifies articles into negative, neutral or positive. It was developed using methods described in the following article.
+NOTE: you can find a mirror repository at https://gitlab.com/Andrazp/news_sentiment_tool_mebeddia.
+
+The tool classifies articles into negative, neutral or positive. It was developed for the Embeddia Hackaton using methods and datasets described in the following article.
 
 @article{pelicon2020zero,
   title={Zero-shot learning for cross-lingual news sentiment classification},
